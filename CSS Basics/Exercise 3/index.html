@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Bookmarks</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .bookmark img {
+      width: 150px;
+      height: 150px;
+      border-radius: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+
+    .bookmark img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Image Bookmarks</h1>
+
+<div class="container">
+  <a class="bookmark" href="https://www.ynet.co.il" target="_blank">
+    <img src="https://static.ynet.co.il/ynet/images/logo.png" alt="Ynet" />
+  </a>
+  <a class="bookmark" href="https://www.youtube.com" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
+  </a>
+  <a class="bookmark" href="https://www.facebook.com" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook">
+  </a>
+</div>
+
+
+</body>
+</html>

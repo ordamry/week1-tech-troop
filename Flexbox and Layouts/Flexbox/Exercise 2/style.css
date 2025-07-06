@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  width: 500px; 
+  margin-bottom: 40px;
+  border: 1px solid lightgray;
+}
+
+.box {
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  border-right: 1px solid white;
+}
+
+.box:last-child {
+  border-right: none;
+}
+
+.even .box {
+  flex-grow: 1;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}

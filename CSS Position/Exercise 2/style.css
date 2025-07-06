@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+}
+
+#parent {
+  display: flex;
+  width: 600px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  height: 200px;
+}
+
+#child-1 {
+  background-color: lightblue;
+  width: calc(100% - 20px);
+}
+
+#child-2 {
+  background-color: lightcoral;
+  width: 20px;
+}

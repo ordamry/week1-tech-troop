@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 4 - CSS Drawing</title>
+  <style>
+    body {
+      background-color: #f0f8ff;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+    }
+
+    #container {
+      background-color: #fff;
+      padding: 30px;
+      border: 3px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      width: 300px;
+    }
+
+    .box {
+      display: block;
+      width: 100px;
+      height: 100px;
+      margin: 10px auto;
+      border: 2px solid #333;
+    }
+
+    #first {
+      background-color: skyblue;
+    }
+
+    #second {
+      background-color: pink;
+    }
+
+    .prompt {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      display: block;
+    }
+
+    .button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.2s;
+    }
+
+    .button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+    <span class="box" id="first"></span>
+    <span class="box" id="second"></span>
+    <div class="prompt">Name:</div>
+    <input type="text" placeholder="Your name">
+    <div class="prompt">Age:</div>
+    <input type="number" placeholder="How old?">
+    <button class="button">Win</button>
+  </div>
+
+</body>
+</html>

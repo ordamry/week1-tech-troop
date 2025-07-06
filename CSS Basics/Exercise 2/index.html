@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bookmarks</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 40px;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .bookmark {
+      display: block;
+      width: 180px;
+      height: 100px;
+      background-color: white;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      text-align: center;
+      line-height: 100px;
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+      transition: all 0.3s;
+    }
+
+    .bookmark:hover {
+      background-color: #007bff;
+      color: white;
+      border-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Bookmarks</h1>
+
+  <div class="container">
+    <a class="bookmark" href="https://www.ynet.co.il" target="_blank">Ynet</a>
+    <a class="bookmark" href="https://www.youtube.com" target="_blank">YouTube</a>
+    <a class="bookmark" href="https://www.facebook.com" target="_blank">Facebook</a>
+  </div>
+
+</body>
+</html>
